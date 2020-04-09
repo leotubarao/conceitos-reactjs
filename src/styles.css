@@ -6,19 +6,20 @@
 
 body {
   font-size: 14px;
+  font-family: sans-serif;
 }
 
-div {
+div.container {
   width: 100%;
-  margin: 20px;
+  padding: 20px;
 }
 
-div li {
+div.container li {
   display: flex;
   align-items: center;
 }
 
-div li + li {
+div.container li + li {
   margin-top: 15px;
 }
 
